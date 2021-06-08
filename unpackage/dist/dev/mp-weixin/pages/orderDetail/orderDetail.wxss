@@ -1,0 +1,14 @@
+.order-step {
+  padding: 40rpx 0;
+}
+.info-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 24rpx 40rpx;
+  color: gray;
+}
+

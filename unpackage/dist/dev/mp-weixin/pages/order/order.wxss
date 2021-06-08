@@ -1,0 +1,64 @@
+.order-tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 8;
+  background-color: #fff;
+}
+.order-tabs .tab {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.order-tabs .tab text {
+  display: inline-block;
+  height: 88rpx;
+  line-height: 88rpx;
+  padding: 0 4rpx;
+}
+.order-tabs .tab .act {
+  border-bottom: 6rpx solid #FB0017;
+}
+.order-main {
+  padding-top: 90rpx;
+}
+.order-row {
+  padding: 0 32rpx 52rpx;
+}
+.order-row .top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 12rpx 0;
+}
+.order-row .list {
+  padding: 0 12rpx;
+}
+.order-row .tips {
+  text-align: right;
+  font-size: 24rpx;
+  color: gray;
+}
+.order-row .btn {
+  text-align: right;
+  padding: 10px 0;
+}
+.order-row .btn button {
+  margin: 0 4rpx;
+  font-size: 24rpx;
+  padding: 0 16rpx;
+}
+

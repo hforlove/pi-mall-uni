@@ -1,0 +1,40 @@
+.cart {
+  padding-bottom: 0px;
+}
+.cart-all {
+  position: relative;
+  top: 8rpx;
+}
+.cart-all checkbox {
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.cart-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.cart-item .l {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  width: 80rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding-left: 40rpx;
+  -webkit-transform: scale(0.7);
+          transform: scale(0.7);
+}
+.cart-item .r {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.cart-item .step {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  -webkit-transform-origin: right bottom;
+          transform-origin: right bottom;
+}
+

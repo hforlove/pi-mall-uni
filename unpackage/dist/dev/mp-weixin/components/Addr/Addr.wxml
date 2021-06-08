@@ -1,0 +1,1 @@
+<view class="address"><view class="info"><text>{{name}}</text><text class="mobile">{{mobile}}</text><block wx:if="{{isDefault}}"><text class="d">默认</text></block></view><view class="detail"><text>{{address}}</text></view></view>

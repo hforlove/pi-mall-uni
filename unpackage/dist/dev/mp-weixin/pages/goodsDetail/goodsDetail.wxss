@@ -1,0 +1,109 @@
+.goods-swiper {
+  height: 750rpx;
+}
+.goods-swiper image {
+  width: 100%;
+  height: 100%;
+}
+.goods-nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 8;
+}
+.goods-info {
+  padding: 20rpx 32rpx 120rpx;
+}
+.goods-info .title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.goods-info .title .l {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-right: 10rpx;
+  line-height: 36rpx;
+  font-weight: bold;
+}
+.goods-info .title .r {
+  width: 80rpx;
+}
+.goods-info .title .r view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+}
+.goods-info .tips {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.goods-info .tips > view {
+  font-size: 32rpx;
+}
+.goods-info .tips > view text:last-child {
+  font-size: 24rpx;
+  text-decoration: line-through;
+}
+.goods-info .tips > text {
+  font-size: 24rpx;
+}
+.goods-info .line {
+  text-align: center;
+  padding: 20rpx;
+}
+.goods-info .cell {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 12rpx 0;
+}
+.goods-info .cell .l {
+  width: 140rpx;
+}
+.goods-info .cell .r {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.goods-service {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 32rpx;
+}
+.goods-service text {
+  padding: 20rpx 0;
+  color: gray;
+}
+.goods-select {
+  border-radius: 40rpx 40rpx 0 0;
+  overflow: hidden;
+  background: #fff;
+}
+

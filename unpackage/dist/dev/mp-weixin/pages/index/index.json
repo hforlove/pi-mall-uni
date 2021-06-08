@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "PI-商城",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "index-card": "/pages/index/IndexCard"
+  }
+}

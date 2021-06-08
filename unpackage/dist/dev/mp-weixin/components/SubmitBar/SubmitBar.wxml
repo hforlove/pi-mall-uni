@@ -1,0 +1,1 @@
+<view class="submit-bar"><view class="left"><slot></slot></view><view class="right"><text class="txt">合计:</text><view class="red"><text class="pre">￥</text><text>{{$root.g0}}</text></view><button data-event-opts="{{[['tap',[['onSubmit',['$event']]]]]}}" class="btn" bindtap="__e">提交订单</button></view></view>

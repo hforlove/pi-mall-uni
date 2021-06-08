@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['$emit',['onClick']]]]]}}" class="cell-row" bindtap="__e"><view class="cont"><slot></slot></view><block wx:if="{{islink}}"><view class="icon"><text class="iconfont iconjiantou"></text></view></block></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单详情",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-steps": "/uni_modules/uni-steps/components/uni-steps/uni-steps",
+    "goods-row": "/components/Goods/GoodsRow",
+    "addr": "/components/Addr/Addr"
+  }
+}

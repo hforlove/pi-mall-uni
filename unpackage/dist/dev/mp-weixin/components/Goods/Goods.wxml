@@ -1,0 +1,1 @@
+<view><view class="goods"><image class="img" src="{{pic}}"></image><text class="name">{{name}}</text><text class="red">{{"￥"+price}}</text></view></view>

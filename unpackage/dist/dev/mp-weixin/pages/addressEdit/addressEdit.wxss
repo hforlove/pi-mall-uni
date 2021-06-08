@@ -1,0 +1,19 @@
+
+.address-edit{
+	padding: 32rpx 40rpx;
+}
+.address-default{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.address-save{
+	padding-top: 60rpx;
+}
+

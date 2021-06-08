@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "创建订单",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "addr": "/components/Addr/Addr",
+    "submit-bar": "/components/SubmitBar/SubmitBar",
+    "goods-row": "/components/Goods/GoodsRow"
+  }
+}

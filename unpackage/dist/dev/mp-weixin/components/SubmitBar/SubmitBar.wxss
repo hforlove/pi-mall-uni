@@ -1,0 +1,52 @@
+.submit-bar {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 20rpx 32rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  position: fixed;
+  left: 0;
+  bottom: 0px;
+  background-color: #fff;
+  z-index: 9;
+}
+.submit-bar .right,
+.submit-bar .left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.submit-bar .btn {
+  background: #ee0a24;
+  color: #fff;
+  border-radius: 40rpx;
+  height: 72rpx;
+  font-size: 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  padding: 0 40rpx;
+}
+.submit-bar .red {
+  font-size: 36rpx;
+  padding: 0 20rpx;
+}
+.submit-bar .pre {
+  font-size: 24rpx;
+}
+

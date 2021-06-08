@@ -1,0 +1,58 @@
+.pay-type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 60rpx 120rpx;
+}
+.pay-type label {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  padding: 12rpx;
+}
+.pay-bar {
+  position: relative;
+  height: 460rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  background: #eb2f06;
+  color: #fff;
+}
+.pay-bar::before,
+.pay-bar::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://pic.imgdb.cn/item/609b78cfd1a9ae528facc9b5.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.pay-bar .v1 {
+  font-size: 32rpx;
+  padding-bottom: 20rpx;
+}
+.pay-bar .v2 {
+  font-size: 54rpx;
+}
+

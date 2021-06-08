@@ -1,0 +1,65 @@
+.category {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: calc(100vh - 190rpx);
+}
+.category scroll-view {
+  height: 100%;
+}
+.category .left {
+  width: 172rpx;
+}
+.category .left .box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.category .left .box text {
+  padding: 24rpx 0;
+  font-size: 28rpx;
+  text-align: center;
+}
+.category .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.category .right .items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 20rpx 0;
+}
+.category .right .block {
+  padding: 24rpx;
+}
+.category .right .item {
+  width: 33.33%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-bottom: 20rpx;
+}
+.category .right .item image {
+  width: 152rpx;
+  height: 152rpx;
+}
+.category .right .item text {
+  font-size: 24rpx;
+  text-align: center;
+}
+

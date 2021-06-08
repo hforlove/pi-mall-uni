@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['$emit',['onClick']]]]]}}" class="goods-row" bindtap="__e"><image class="img" src="{{pic}}"></image><view class="int"><view class="title">{{name}}</view><view class="m"><slot name="m"></slot></view><view class="br"><slot name="br"></slot></view><view class="price">{{"￥"+price}}</view></view></view>

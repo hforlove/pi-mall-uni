@@ -1,0 +1,50 @@
+.goods-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 24rpx 32rpx;
+}
+.goods-row .img {
+  width: 196rpx;
+  height: 196rpx;
+}
+.goods-row .int {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+  padding-left: 20rpx;
+}
+.goods-row .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.goods-row .price {
+  color: #FB0017;
+}
+.goods-row .m {
+  font-size: 24rpx;
+  color: gray;
+}
+.goods-row .br {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: gray;
+  font-size: 24rpx;
+}
+
