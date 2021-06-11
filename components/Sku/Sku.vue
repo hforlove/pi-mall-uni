@@ -20,7 +20,7 @@
 						:key="item.id"
 						v-show="!item.active"
 					>
-						{{item.title}}{{item.active}}
+						{{item.title}}
 					</text>
         </view>
       </view>
